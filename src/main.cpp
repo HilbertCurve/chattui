@@ -1,6 +1,10 @@
-#include <iostream>
+#include "App.hpp"
+
+#include <ncurses.h>
+#include <panel.h>
 
 int main() {
-    std::cout << "Hello, world!\n";
+    App app = App();
+    int i = getch();
     return 0;
 }
